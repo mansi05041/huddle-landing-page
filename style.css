@@ -1,0 +1,66 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+@media screen {
+    * {
+    color: white;
+    background-image: url('images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    margin:5px;
+    padding:5px;
+    }
+}
+.logo{
+  width:200px;
+  height:200px;
+}
+.image{
+  grid-area: 1 / 1 / 2 / 2;
+}
+.info {
+   grid-area: 1 / 2 / 2 / 3;
+ }
+ .btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Poppins', sans-serif;
+  color:hsl(257, 40%, 49%);
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  position: relative;
+  bottom:10px;
+}
+.btn:hover {
+  background: hsl(300, 69%, 71%);
+  color: white;
+  text-decoration: none;
+}
+.mockups{
+  height:400px;
+}
+.heading{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size:35px;
+}
+.about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.social{
+  text-align: right;
+}
