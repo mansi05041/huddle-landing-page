@@ -22,6 +22,8 @@ body {
 
 .row{
   padding: 5% 3%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .med-sec-img{
